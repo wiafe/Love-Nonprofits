@@ -404,7 +404,8 @@ nav {
   }
   @media (max-width: 465px) {
     .post .post-text textarea {
-      font-size: 1.9em
+      font-size: 1.6em;
+      height: 250px;
     }
   }
 
