@@ -241,11 +241,16 @@ body {
 
 nav {
   height: 75px;
-  color: #5a5a5a; }
-  nav h5 {
+   }
+  nav h5 a{
     font-weight: 900;
     font-size: 20px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    color: #5a5a5a; }
+  nav h5 a:hover {
+    color: #5a5a5a;
+    text-decoration: none;
+  }
   nav i {
     padding: 0 10px;
     color: #ee7474;
