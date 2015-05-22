@@ -295,10 +295,17 @@ nav {
     width: 337px;
     margin: 0 auto; }
 @media (max-width: 450px) {
+  .main .row {
+    display: flex;
+  }
   .main .btn {
     display: block;
     margin: 0 auto;
     margin-top: 10px;
+    width: 50%
+  }
+  .main .btn-clear {
+    margin-left: 10px
   }
 }
 
