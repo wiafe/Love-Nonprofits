@@ -294,6 +294,13 @@ nav {
   .main .row {
     width: 337px;
     margin: 0 auto; }
+@media (max-width: 450px) {
+  .main .btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+}
 
 @media (min-width: 1200px) {
   .about .row {
