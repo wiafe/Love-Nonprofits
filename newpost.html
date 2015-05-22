@@ -37,9 +37,9 @@
 		<p>Nonprofits work tirelessly to make this world of ours a beautiful place to live.<br>Let’s show the industry some love.</p>
 	</div>
 
-	<form action="viewpost.html" method="get">
+	<form action="viewpost.html" method="POST">
 		<div class="container post-text">
-			<textarea name="message" autofocus placeholder="I Working for a nonprofit because" ng-model="message"></textarea>
+			<textarea id="message"  name="message" autofocus placeholder="I Working for a nonprofit because"></textarea>
 		</div>
 
 		<div class="container post-sign">
@@ -47,7 +47,7 @@
 			
 			<input type="text" class="col-sm-3" placeholder="Your Name">
 			<input type="email" class="col-sm-3 col-sm-offset-1" placeholder="Your Email Address">
-			<button type="submit" class="col-sm-1 enter">Submit</button>
+			<button type="submit" class="col-sm-1 enter" id="send-message">Submit</button>
 		</div>
 	</form>
 </section>
