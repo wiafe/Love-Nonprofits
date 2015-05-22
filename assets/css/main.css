@@ -295,7 +295,7 @@ nav {
     width: 337px;
     margin: 0 auto; }
 @media (max-width: 450px) {
-  .main .header-blurb {
+  .main .header-blurb h1 {
     font-size: 2.3em;
   }
   .main .btn {
