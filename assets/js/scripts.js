@@ -13,7 +13,6 @@ $( document ).ready(function() {
 	$('#send-message').click(function() {
 		var userMessage = $('#message').val();
 
-		$( '<p>' + userMessage + '</p>' ).prependTo('.post-content');
 	});
 
 });
