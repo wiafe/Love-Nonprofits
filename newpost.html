@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
 <head>
   <title></title>
   <meta charset="utf-8">
@@ -31,21 +31,27 @@
   </div>
 </nav>
 
-	<div class="main">
-	<div class="container blurb">
-		<div class="header-blurb"><h1>making a living making a difference. best job ever!</h1></div>
-		<div class="prize-enter"><p>Enter to win <b>$500</b> for your organization by sharing why you love working for a nonprofit!</p></div>
-		
+	<section class="post">
+	<div class="container text-center post-detail">
+		<p class="pink-text">Do you love working at a nonprofit? Write a note telling us why:</p>
+		<p>Nonprofits work tirelessly to make this world of ours a beautiful place to live.<br>Let’s show the industry some love.</p>
 	</div>
-	<div class="row">
-		<div class="btn">
-			<a href="#">Add your note</a>
+
+	<form action="viewpost.html" method="get">
+		<div class="container post-text">
+			<textarea name="message" autofocus placeholder="I Working for a nonprofit because" ng-model="message"></textarea>
 		</div>
-		<div class="btn btn-clear">
-			<a href="#">Learn More</a>
+
+		<div class="container post-sign">
+			<label><em>Signed:</em></label>
+			
+			<input type="text" class="col-sm-3" placeholder="Your Name">
+			<input type="email" class="col-sm-3 col-sm-offset-1" placeholder="Your Email Address">
+			<button type="submit" class="col-sm-1 enter">"Submit</button>
+			<a href="viewpost.html">HELO</a>
 		</div>
-	</div>
-</div>
+	</form>
+</section>
 
 	<section class="about container">
 	<div class="row">
@@ -61,50 +67,6 @@
 
 	</div>
 </section>
-
-
-	<section class="messages">
-	<div class="container">
-		<div class="yo">
-			<div class="message col-md-4">I<i class="fa fa-heart"></i>working for a nonprofit because we care about more than our own cause.
-				<p class="person">Leaslie S.</p>
-			</div>
-			<div class="message col-md-4">I<i class="fa fa-heart"></i>working for a nonprofit because we care about more than our own cause.
-				<p class="person">Leaslie S.</p>
-			</div>
-			<div class="col-md-4 details">
-				<p>View Details</p>
-				<a href="#">Tweet</a>
-			</div>
-		</div>
-
-
-		<div class="yo">
-			<div class="message col-md-4">I<i class="fa fa-heart"></i>working for a nonprofit because we care about more than our own cause.
-				<p class="person">Leaslie S.</p>
-			</div>
-			<div class="message col-md-4">I<i class="fa fa-heart"></i>working for a nonprofit because we care about more than our own cause.
-				<p class="person">Leaslie S.</p>
-			</div>
-			<div class="message col-md-4">I<i class="fa fa-heart"></i>working for a nonprofit because we care about more than our own cause.
-				<p class="person">Leaslie S.</p>
-			</div>
-		</div>
-
-		<div class="yo">
-			<div class="message col-md-4">I<i class="fa fa-heart"></i>working for a nonprofit because we care about more than our own cause.
-				<p class="person">Leaslie S.</p>
-			</div>
-			<div class="message col-md-4">I<i class="fa fa-heart"></i>working for a nonprofit because we care about more than our own cause.
-				<p class="person">Leaslie S.</p>
-			</div>
-		<div class="message col-md-4">I<i class="fa fa-heart"></i>working for a nonprofit because we care about more than our own cause.
-		<p class="person">Leaslie S.</p><div>
-		</div>
-	</div>
-</section>
-
-
 
 
 <script src="assets/js/jquery-2.1.1.min.js"></script>
