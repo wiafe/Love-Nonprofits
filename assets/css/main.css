@@ -295,10 +295,14 @@ nav {
     width: 337px;
     margin: 0 auto; }
 @media (max-width: 450px) {
+  .main .header-blurb {
+    font-size: 2.3em;
+  }
   .main .btn {
     display: block;
-    margin: 0 auto;
+    margin: 0 43px
     margin-top: 10px;
+    width: 50%
   }
 }
 
