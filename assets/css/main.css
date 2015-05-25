@@ -328,7 +328,13 @@ nav {
       padding: 20px 40px; }
     .about .row .about-app a {
       color: #4893c0;
-      text-decoration: underline; } }
+      text-decoration: underline; }
+    .fa-times{
+      position: relative;
+      top: -18px;
+      right: 21px;
+      color: #696969;
+      } }
 @media (max-width: 1199px) {
   .about .row {
     display: block;
@@ -346,7 +352,10 @@ nav {
       padding: 20px 40px; }
     .about .row .about-app a {
       color: #4893c0;
-      text-decoration: underline; } }
+      text-decoration: underline; } 
+      .fa-times{
+        display: none;
+        }}
 
 .messages {
   margin-top: 20px;
@@ -357,7 +366,7 @@ nav {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 50px 40px;
+    padding: 56px 40px;
     margin: 10.4px;
     font-size: 25px;
     border-radius: 3px;
@@ -366,15 +375,33 @@ nav {
       color: #941010;
       padding: 0 10px; }
     .messages .message .person {
-      color: #941010; }
+      color: #941010;
+      font-style: italic;
+      font-size: 18px;
+      text-transform: capitalize; }
   .messages .details {
-    background-color: #387b99;
-    padding: 130px 80px;
+    background-image: url(../images/details.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 134px 80px;
     margin: 10.4px;
     font-size: 25px;
     border-radius: 3px;
-    text-transform: uppercase;
-    text-decoration: underline; }
+    text-align: center;
+    text-transform: uppercase; }
+  .messages .details p {
+    letter-spacing: 4.3px;
+    text-decoration: underline;
+    font-size: 20.3px
+  }
+  .messages .details a {
+    padding: 10px 18px;
+    background-color: #20576f;
+    font-size: 14px;
+    border-radius: 5px;
+    letter-spacing: 3px;
+  }
 
 @media (min-width: 992px) {
   .col-md-4 {
@@ -537,7 +564,7 @@ nav {
       font-weight: 900;
       font-size: 12px; } }
 
-@media (max-width: 1250px) {
+@media (max-width: 1299px) {
   .view-controls {
     display: none; }
 
