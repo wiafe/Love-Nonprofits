@@ -371,7 +371,20 @@ nav {
       color: #4893c0;
       text-decoration: underline; } }
 
-
+.messages {
+  width: 1160px;
+  margin: 0px auto;
+  color: #fff;
+  font-weight: 600; }
+.message > div {
+  background-color: #ee7474;
+  margin: 20px 10px;
+  border-radius: 4px;
+  padding: 39px;
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
 .heart {
   background-image: url(../images/heart@2x.png);
   background-repeat: no-repeat;
@@ -389,59 +402,17 @@ nav {
   font-family: "Proxima Nova", sans-serif;
 }
 @media screen and (max-width: 480px){
-.messages {
-  width: 1160px;
-  margin: 0px auto;
-  color: #fff;
-  font-weight: 600; }
-.message > div {
-  background-color: #ee7474;
-  margin: 20px 10px;
-  border-radius: 4px;
-  padding: 39px;
-  font-size: 30px;
-  line-height: 40px;
-  text-transform: uppercase;
-}
   #grid[data-columns]::before {
     content: '1 .column.size-1of1';
   }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-.messages {
-  width: 1160px;
-  margin: 0px auto;
-  color: #fff;
-  font-weight: 600; }
-.message > div {
-  background-color: #ee7474;
-  margin: 20px 10px;
-  border-radius: 4px;
-  padding: 39px;
-  font-size: 30px;
-  line-height: 40px;
-  text-transform: uppercase;
-}
   #grid[data-columns]::before {
     content: '2 .column.size-1of2';
   }
 }
 @media screen and (min-width: 769px) {
-.messages {
-  width: 1160px;
-  margin: 0px auto;
-  color: #fff;
-  font-weight: 600; }
-.message > div {
-  background-color: #ee7474;
-  margin: 20px 10px;
-  border-radius: 4px;
-  padding: 39px;
-  font-size: 30px;
-  line-height: 40px;
-  text-transform: uppercase;
-}
   #grid[data-columns]::before {
     content: '3 .column.size-1of3';
   }
