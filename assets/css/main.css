@@ -251,9 +251,6 @@ nav {
   }
   nav .pull-right {
     margin-top: 21px; }
-    .twitter-follow {
-      overflow: hidden;
-    }
     nav .pull-right .twitter-follow-button {
       position: relative !important;
       top: 6px;
