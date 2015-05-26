@@ -421,51 +421,7 @@ nav {
 .size-1of1 { width: 100%; }
 .size-1of2 { width: 50%; }
 .size-1of3 { width: 33.333%; }
-/*  .messages .message {
-    background-image: url(../images/message-bg.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 56px 40px;
-    margin: 10.4px;
-    font-size: 25px;
-    border-radius: 3px;
-    text-transform: uppercase; }
-    .messages .message i {
-      color: #941010;
-      padding: 0 10px; }
-    .messages .message .person {
-      color: #941010;
-      font-style: italic;
-      font-size: 18px;
-      text-transform: capitalize; }
-  .messages .details {
-    background-image: url(../images/details.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 134px 80px;
-    margin: 10.4px;
-    font-size: 25px;
-    border-radius: 3px;
-    text-align: center;
-    text-transform: uppercase; }
-  .messages .details p {
-    letter-spacing: 4.3px;
-    text-decoration: underline;
-    font-size: 20.3px
-  }
-  .messages .details a {
-    padding: 10px 18px;
-    background-color: #20576f;
-    font-size: 14px;
-    border-radius: 5px;
-    letter-spacing: 3px;
-  }*/
 
-@media (min-width: 992px) {
-  .col-md-4 {
-    width: 31.23333%; } }
 .post p {
   margin: 0;
   padding: 0 10px;
