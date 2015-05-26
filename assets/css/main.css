@@ -279,9 +279,11 @@ nav {
       text-transform: uppercase; }
       .main .blurb .header-blurb h1 {
         font-weight: 100;
-        font-size: 4em; }
+        font-size: 3.9em;
+        font-family: "Museo Slab",sans-serif; }
     .main .blurb .prize-enter {
-      font-size: 0.9em; }
+      font-size: 24px;
+      font-family: "Proxima Nova", sans-serif; }
   .main .row {
     width: 337px;
     margin: 0 auto; }
@@ -306,7 +308,12 @@ nav {
     border-radius: 6px; }
     .about .row h4 {
       color: #ee7474;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-family: "Museo Slab", sans-serif; }
+    .about .row p {
+      font-weight: lighter;
+      font-family: "Proxima Nova", sans-serif;
+    }
     .about .row .fifty {
       width: 50%;
       display: table-cell; }
@@ -315,11 +322,16 @@ nav {
     .about .row .about-app a {
       color: #4893c0;
       text-decoration: underline; }
-    .fa-times{
+    .close {
+      background-image: url(../images/close@2x.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
       position: relative;
-      top: -18px;
-      right: 21px;
+      top: -19px;
+      right: 20px;
       color: #696969;
+      padding: 10px;
       } }
 @media (max-width: 1199px) {
   .about .row {
@@ -330,7 +342,11 @@ nav {
     border-radius: 6px; }
     .about .row h4 {
       color: #ee7474;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-family: "Museo Slab", sans-serif; }
+      .about .row p {
+        font-weight: lighter;
+        font-family: "Proxima Nova", sans-serif; }
     .about .row .fifty {
       width: 100%;
       dispay: block; }
@@ -338,16 +354,16 @@ nav {
       padding: 20px 40px; }
     .about .row .about-app a {
       color: #4893c0;
-      text-decoration: underline; } 
-      .fa-times{
-        display: none;
-        }}
+      text-decoration: underline; } }
 
 .messages {
   margin-top: 20px;
   color: #fff;
   font-weight: 600; }
-  .messages .message {
+#grid[data-columns]::before {
+  content: '3 .column.size-1of3';
+}
+/*  .messages .message {
     background-image: url(../images/message-bg.png);
     background-position: center;
     background-size: cover;
@@ -387,7 +403,7 @@ nav {
     font-size: 14px;
     border-radius: 5px;
     letter-spacing: 3px;
-  }
+  }*/
 
 @media (min-width: 992px) {
   .col-md-4 {
