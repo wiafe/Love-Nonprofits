@@ -242,27 +242,13 @@ body {
 nav {
   height: 75px;
    }
-  nav h5 a{
-    font-weight: 900;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #5a5a5a; }
-  nav h5 a:hover {
-    color: #5a5a5a;
-    text-decoration: none;
+  nav .pull-left {
+    background-image: url(../images/logo@2x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 30px 82px;
   }
-  nav i {
-    padding: 0 10px;
-    color: #ee7474;
-    position: relative;
-    top: 8px; }
-  nav h6 {
-    position: relative;
-    left: 116px;
-    bottom: 10px; }
-  nav .rainmaker-color {
-    color: #46aadd;
-    text-transform: uppercase; }
   nav .pull-right {
     margin-top: 21px; }
     nav .pull-right .twitter-follow-button {
