@@ -15,4 +15,15 @@ $( document ).ready(function() {
 
 	});
 
+    jQuery(function($) {
+        $('#version').html('using jQuery ' + $.fn.jquery);
+        $('textarea').expandable();
+    });
+
+    $('textarea').textcounter({
+    	type: "characer",
+    	max: 100,
+    	stopInputAtMaximum: false
+	});
+
 });
