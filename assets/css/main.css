@@ -229,12 +229,17 @@ body {
   background-color: #65be80;
   padding: 10px 25px;
   display: inline-block;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: bold; }
 
 .btn-clear {
   background-color: transparent;
   border: 2px solid #fff;
-  margin-left: 20px; }
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: bold; }
 
 .shadow {
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1); }
@@ -248,9 +253,11 @@ nav {
     background-size: contain;
     background-position: center;
     padding: 30px 82px;
+    position: relative;
+    top: 10px;
   }
   nav .pull-right {
-    margin-top: 21px; }
+    margin-top: 17px; }
     nav .pull-right .twitter-follow-button {
       position: relative !important;
       top: 6px;
@@ -280,14 +287,20 @@ nav {
       .main .blurb .header-blurb h1 {
         font-weight: 100;
         font-size: 3.9em;
-        font-family: "Museo Slab",sans-serif; }
+        font-family: "Museo Slab",sans-serif;
+        margin-bottom: 0; }
     .main .blurb .prize-enter {
       font-size: 24px;
       font-family: "Proxima Nova", sans-serif;
-      font-weight: lighter; }
-  .main .row {
-    width: 337px;
+      font-weight: lighter;
+      margin: 30px auto; }
+  .main .cta {
+    width: 367px;
     margin: 0 auto; }
+  .main .cta .btn-clear{
+    padding: 10px 38px;
+
+  }
 @media (max-width: 450px) {
   .main .blurb .header-blurb h1 {
     font-size: 2.3em;
@@ -297,6 +310,7 @@ nav {
     margin: 0 43px;
     margin-top: 10px;
     width: 50%
+    text-transform: uppercase;
   }
 }
 
@@ -304,7 +318,7 @@ nav {
   .about .row {
     background-color: #e8e8e8;
     max-width: 1140px;
-    margin: 35px auto;
+    margin: 35px auto 11px;
     display: table;
     border-radius: 6px; }
     .about .row h4 {
@@ -364,7 +378,7 @@ nav {
   font-weight: 600; }
 .message > div {
   background-color: #ee7474;
-  margin: 10px;
+  margin: 20px 10px;
   border-radius: 4px;
   padding: 39px;
   font-size: 30px;
@@ -387,10 +401,25 @@ nav {
   font-size: 20px;
   font-family: "Proxima Nova", sans-serif;
 }
-.grid[data-columns]::before {
-  content: '3 .column.size-1of3';
+@media screen and (max-width: 480px){
+  .grid[data-columns]::before {
+    content: '1 .column.size-1of1';
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .grid[data-columns]::before {
+    content: '2 .column.size-1of2';
+  }
+}
+@media screen and (min-width: 769px) {
+  .grid[data-columns]::before {
+    content: '3 .column.size-1of3';
+  }
 }
 .column { float: left; }
+.size-1of1 { width: 100%; }
+.size-1of2 { width: 50%; }
 .size-1of3 { width: 33.333%; }
 /*  .messages .message {
     background-image: url(../images/message-bg.png);

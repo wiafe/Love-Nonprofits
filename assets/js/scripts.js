@@ -21,9 +21,8 @@ $( document ).ready(function() {
     });
 
     $('textarea').textcounter({
-    	type: "characer",
     	max: 100,
-    	stopInputAtMaximum: false
+    	stopInputAtMaximum: true
 	});
 
 });
