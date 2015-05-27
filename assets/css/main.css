@@ -588,16 +588,19 @@ nav {
 }
 
 .banner .slide {
-  height: 500px;
-  /*width: 100%;*/
+  height: auto;
 }
 
 
 .view {
   position: relative;
 }
+
+.wrapper {
+  margin-top: 30px;
+}
+
 .view-post {
-  margin: 41px auto 23px;
   background-color: #ee7474;
   font-size: 78px;
   color: #fff;
@@ -612,6 +615,15 @@ nav {
 .view-post .content {
   background-color: #ee7474;
   padding: 24px 39px;
+}
+
+.view-post .user-name {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  text-transform: capitalize;
+  color: #8f2424;
+  display: block;
 }
 
 .prev {
@@ -636,12 +648,13 @@ nav {
   position: absolute;
   width: 48px;
   height: 48px;
+  cursor: pointer;
 }
 
 .view .social {
   margin-top: 15px;
   padding-left: 0;
-  font-size: 14px
+  font-size: 14px;
   font-family: "Proxima Nova", sans-serif; }
 .view .social a {
   background-color: #ee7474;
