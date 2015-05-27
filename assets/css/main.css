@@ -406,6 +406,9 @@ nav {
   #grid[data-columns]::before {
     content: '1 .column.size-1of1';
   }
+  .message > div {
+    margin: 20px 0px;
+  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
