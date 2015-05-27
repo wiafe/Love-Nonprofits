@@ -246,6 +246,9 @@ body {
 .shadow .pull-left {
   top: 0;
 }
+.shadow .pull-right {
+  margin-top: 14px;
+}
 
 nav {
   height: 75px;
