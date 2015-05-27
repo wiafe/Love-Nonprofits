@@ -624,6 +624,7 @@ nav {
   text-transform: capitalize;
   color: #8f2424;
   display: block;
+  line-height: 35px;
 }
 
 .prev {
@@ -653,7 +654,6 @@ nav {
 @media (max-width: 820px) {
   .view-post {
     font-size: 36px;
-    margin: 0 5px;
   }
   .post-heart {
     padding: 30px;
@@ -711,8 +711,7 @@ nav {
   .view .social .social-link {
     padding: 9.5px 10px;
     margin-top: 20px;
-    display: flex;
-    font-weight: bold; }
+    display: flex;}
   .view .social span {
     color: #ee7474;
     text-transform: uppercase;
