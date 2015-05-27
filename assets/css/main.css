@@ -295,7 +295,7 @@ nav {
       font-weight: lighter;
       margin: 30px auto; }
   .main .cta {
-    width: 367px;
+    max-width: 367px;
     margin: 0 auto; }
   .main .cta .btn-clear{
     padding: 10px 38px;
@@ -307,10 +307,12 @@ nav {
   }
   .main .btn {
     display: block;
-    margin: 0 43px;
+    margin: 0 auto;
     margin-top: 10px;
-    width: 50%
     text-transform: uppercase;
+  }
+  .main .btn-clear {
+    margin-left: 0;
   }
 }
 
@@ -407,7 +409,7 @@ nav {
     content: '1 .column.size-1of1';
   }
   .message > div {
-    margin: 20px 0px;
+    margin: 20px 5px;
   }
 }
 
