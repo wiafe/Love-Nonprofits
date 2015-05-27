@@ -650,6 +650,24 @@ nav {
   height: 48px;
   cursor: pointer;
 }
+@media (max-width: 820px) {
+  .view-post {
+    font-size: 36px;
+    margin: 0 5px;
+  }
+  .post-heart {
+    padding: 30px;
+  }
+}
+@media (max-width: 465px) {
+  .view-post {
+    font-size: 28px;
+  }
+  .post-heart {
+    padding: 20px;
+    margin: 0 10px;
+  }
+}
 
 .view .social {
   margin-top: 15px;
