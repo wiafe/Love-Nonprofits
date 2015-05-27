@@ -658,6 +658,9 @@ nav {
   .post-heart {
     padding: 30px;
   }
+  .arrows {
+    display: none;
+  }
 }
 @media (max-width: 465px) {
   .view-post {
@@ -666,6 +669,9 @@ nav {
   .post-heart {
     padding: 20px;
     margin: 0 10px;
+  }
+  .arrows {
+    display: none;
   }
 }
 
