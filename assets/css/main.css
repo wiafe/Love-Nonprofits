@@ -231,7 +231,8 @@ body {
   display: inline-block;
   text-transform: uppercase;
   font-family: "Proxima Nova", sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+  letter-spacing: 2px; }
 
 .btn-clear {
   background-color: transparent;
@@ -301,7 +302,7 @@ nav {
       font-weight: lighter;
       margin: 30px auto; }
   .main .cta {
-    max-width: 367px;
+    max-width: 407px;
     margin: 0 auto; }
   .main .cta .btn-clear{
     padding: 10px 38px;
