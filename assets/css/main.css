@@ -466,7 +466,8 @@ nav {
   padding: 24px 39px;
   font-weight: bold;
   font-family: "Proxima Nova", sans-serif;
-  border-radius: 4px; }
+  border-radius: 4px;
+  line-height: 90px; }
   .post .post-text textarea {
     width: 100%;
     border-color: transparent;
@@ -475,7 +476,8 @@ nav {
     outline: none;
     resize: none;
     border-radius: 5px;
-    cursor: auto; }
+    cursor: auto;
+    line-height: 87px; }
   .post-heart {
     background-image: url(../images/post-heart@2x.png);
     background-size: contain;
@@ -701,7 +703,8 @@ nav {
   text-transform: uppercase;
   margin-right: 13px;
   font-weight: bold;
-  font-family: "Proxima Nova", sans-serif; }
+  font-family: "Proxima Nova", sans-serif;
+  cursor: pointer; }
 .view .social a:hover {
   color: #ee7474;
   background-color: #fff;

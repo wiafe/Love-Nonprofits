@@ -32,16 +32,12 @@ $( document ).ready(function() {
         console.log(direction());
     });
 
-    jQuery(function($) {
-        $('#version').html('using jQuery ' + $.fn.jquery);
-        $('textarea').expandable();
-    });
+});
 
-    $('textarea').textcounter({
-    	max: 100,
-    	stopInputAtMaximum: true
-	});
+$('#version').html('using jQuery ' + $.fn.jquery);
+$('textarea').expandable();
 
-	
-
+$('textarea').textcounter({
+	max: 100,
+	stopInputAtMaximum: true
 });
