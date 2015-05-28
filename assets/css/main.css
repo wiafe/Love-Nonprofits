@@ -232,7 +232,7 @@ body {
   text-transform: uppercase;
   font-family: "Proxima Nova", sans-serif;
   font-weight: bold;
-  letter-spacing: 2px; }
+  letter-spacing: 1px; }
 
 .btn-clear {
   background-color: transparent;
