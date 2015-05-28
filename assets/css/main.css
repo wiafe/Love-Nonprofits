@@ -679,7 +679,8 @@ nav {
 }
 
 .view .social {
-  margin-top: 15px;
+  margin-top: 25px;
+  margin-bottom: 60px;
   padding-left: 0;
   font-size: 14px;
   font-family: "Proxima Nova", sans-serif; }
