@@ -638,7 +638,7 @@ nav {
   transform: rotate(45deg);
   top: 50%;
   margin-top: -31px;
-  left: -63px;
+  left: -50px;
 }
 .next {
   border-bottom: 9px solid;
@@ -646,7 +646,7 @@ nav {
   transform: rotate(-135deg);
   top: 50%;
   margin-top: -31px;
-  right: -63px;
+  right: -50px;
 }
 
 .arrows {
