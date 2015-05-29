@@ -23,7 +23,7 @@
             var options = $.extend({
                 duration: 'normal',
                 interval: 900,
-                within: 2,
+                within: 1,
                 by: 1,
                 maxRows: false,
                 init: false
