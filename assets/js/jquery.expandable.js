@@ -22,7 +22,7 @@
         expandable: function(givenOptions) {
             var options = $.extend({
                 duration: 'fast',
-                interval: 150,
+                interval: 750,
                 within: 2,
                 by: 1,
                 maxRows: false,
