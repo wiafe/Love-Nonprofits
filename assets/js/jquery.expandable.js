@@ -22,11 +22,11 @@
         expandable: function(givenOptions) {
             var options = $.extend({
                 duration: 'normal',
-                interval: 900,
+                interval: 650,
                 within: 1,
                 by: 1,
                 maxRows: false,
-                init: false
+                init: true
             }, givenOptions);
 
             return this.filter('textarea').each(function() {
