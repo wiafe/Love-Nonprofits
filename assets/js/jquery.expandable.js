@@ -21,10 +21,10 @@
     $.fn.extend({
         expandable: function(givenOptions) {
             var options = $.extend({
-                duration: 'normal',
-                interval: 750,
-                within: 1,
-                by: 2,
+                duration: 'fast',
+                interval: 150,
+                within: 2,
+                by: 1,
                 maxRows: false,
                 init: false
             }, givenOptions);
