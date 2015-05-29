@@ -26,7 +26,7 @@
                 within: 2,
                 by: 1,
                 maxRows: false,
-                init: false
+                init: true
             }, givenOptions);
 
             return this.filter('textarea').each(function() {
