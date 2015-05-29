@@ -524,6 +524,10 @@ nav {
     .post .post-text {
       font-size: 36px;
       margin: 0 5px;
+      line-height: 46px
+    }
+    .post .post-text textarea {
+      line-height: 43px;
     }
     .text-count {
       display: none;
@@ -535,6 +539,10 @@ nav {
   @media (max-width: 465px) {
     .post .post-text {
       font-size: 28px;
+      line-height: 36px;
+    }
+    .post .post-text textarea {
+      line-height: 33px;
     }
     .post-heart {
       padding: 20px;
