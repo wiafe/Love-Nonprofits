@@ -284,7 +284,7 @@ nav {
         font-weight: bold;
         letter-spacing: 1px; } }
     @media (max-width: 529px) {
-      nav .pull-right .bye {
+      nav .pull-right .nav-btn {
         display: none; } }
 
 .main {
