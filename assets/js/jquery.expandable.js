@@ -21,9 +21,9 @@
     $.fn.extend({
         expandable: function(givenOptions) {
             var options = $.extend({
-                duration: 'fast',
+                duration: 'normal',
                 interval: 750,
-                within: 2,
+                within: 1,
                 by: 1,
                 maxRows: false,
                 init: true
