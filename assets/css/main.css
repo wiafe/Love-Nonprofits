@@ -392,15 +392,34 @@ nav {
   margin: 0px auto;
   color: #fff;
   font-weight: 600; }
-.message > div {
+.message-content {
   background-color: #ee7474;
-  margin: 20px 10px;
+  margin: 10px 10px;
   border-radius: 4px;
   padding: 39px;
   font-size: 30px;
   line-height: 40px;
   text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
 }
+
+.share-btn {
+  margin:5px;
+}
+
+.share-link {
+  display: inline-block;
+  margin-top:10px;
+  font-weight:bold;
+  font-size:30px;
+}
+
+
+/**/
+
+/**/
+
 .heart {
   background-image: url(../images/heart@2x.png);
   background-repeat: no-repeat;
@@ -409,6 +428,7 @@ nav {
   background-position: center;
   margin: 0 10px;
 }
+
 .signature {
   color: #8f2424;
   text-transform: capitalize;
